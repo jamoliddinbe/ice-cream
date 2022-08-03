@@ -1,59 +1,92 @@
-/* .parent-card{
-    border: 1px solid;
-    width: 700px;
-    height: 400px;
-    margin: 0 auto;
-    position: relative;
+header{
+    display: flex;
+    width: 100%;
 }
-.child-card{
+li{
+    list-style: none;
+}
+header img{
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    margin-left: 250px;
+}
+.nav a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+margin-left: 20px;
+}
+span{
+    border: 1px solid none;
+    margin-left: 8px;
+    background-color: #F64775;
+    color: white;
+    border-radius: 15px;
+    font-size: 13px;
+    padding: 3px 5px 3px 5px;
+}
+.buttons{
 display: flex;
-font-size: 44px;
-justify-content: center;
-align-items: center;
-width: 200px;
-    height: 300px;
-    border: 2px solid rgb(222, 10, 10);
-    position: absolute;
-    top: 29%;
-    left: 10%;
+margin-left: 200px;
+}
+.button-1{
+    width: 94px;
+    height: 54px;
+    border: 2px solid #F8F4F4;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+.button2{
+    width: 153px;
+    height: 54px;
+    border: 2px solid  ;
+    background-color: #0099FF;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.hearor{
+    width: 70%;
+    margin: 0 auto;
+}
+.hearor h1{
+    text-align: center;
+    font-size: 120px;
+    margin-bottom: 100px;
+}
+.hearor p{
+    font-size: 24px;
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    margin-left: 250px;
+   
+}
+.hearor form{
+    position: relative;
+    width: 400px;
+    height: 54px;
+    margin-left: 300px;
+}
+.hearor form input{
+    height: 50px;
+    width: 200px;
+    border: 1px solid blue;
+    padding: 3px;
+
+}
+.trial{
+    text-decoration: none;
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+padding: 20px;
+    /* color: #ffffff; */
+border-radius: 15px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
     
-} */
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: palegreen;
-    position: relative;
-}
-.box-1{
-    position: absolute;
-   /* top: 10px;
-   left: 10px;
-   z-index: -1; */
-   bottom: 10px;
-   right: 10px;
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-
-}
-:root{
-    --dropdown-color:var#e70c0c;
-
-}
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content{
-display: none;
-    position: absolute;
-    background-color: var(--dropdown-color);
-min-width: 160px;
-box-shadow: 20px 20px;
-padding: 12px 16px;
-z-index: 1;
-
-}
-.dropdown:hover .dropdown-content{
-    display: block;
 }
